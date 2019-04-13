@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Admin Panel";
+}
+
+
+
+
+<br>
+
+<br>
+
+<br>
+
+<h3>ADMIN CAN MODIFY STUDENT/TEACHER DATA HERE</h3>
+
+<div class="admin_panel">
+    1. @Html.ActionLink("Registered student table", "Index", "StudentsLists", null, new { style = "text-decoration:none" })<br />
+    2. @Html.ActionLink("Registered teacher table", "Index", "TeachersLists", null, new { style = "text-decoration:none" })
+     <br />
+    3. @Html.ActionLink("ADD COURSES", "Index", "CourseTables", null, new { style = "text-decoration:none" })
+</div>
